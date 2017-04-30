@@ -3,19 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>豆瓣电影Top00</title>
+    <title>豆瓣电影Top100</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 30px;
+        }
+
+        table {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            mso-cellspacing: 0;
+        }
+
+        tbody tr:nth-child(odd) {
+            background: #f7f7f7;
+        }
+
+        tr th {
+            height: 48px;
+            font-size: 16px;
+        }
+
+        tr td {
+            height: 60px;
+            overflow: auto;
+        }
+
+        tr td:nth-child(1) {
+            width: 50px;
+        }
+
+        tr td:nth-child(2) {
+            padding: 0 50px;
+        }
+
+        tr td:nth-child(4) {
+            padding: 0 50px;
+        }
+
+        tr td:nth-child(5) {
+            padding: 0 50px;
+        }
+
+        tr td:nth-child(6) {
+            width: 100px;
+        }
+
+        tr td:nth-child(7) {
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
-<table>
+<table cellspacing="0">
     <thead>
     <tr>
-        <td>排名</td>
-        <td>电影名称</td>
-        <td>年份</td>
-        <td>导演</td>
-        <td>主演</td>
-        <td>国家</td>
-        <td>类型</td>
+        <th>排名</th>
+        <th>电影名称</th>
+        <th>年份</th>
+        <th>导演</th>
+        <th>主演</th>
+        <th>国家</th>
+        <th>类型</th>
     </tr>
     </thead>
     <tbody>
